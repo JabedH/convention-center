@@ -1,0 +1,184 @@
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* nav section */
+.dream-text {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3e3e3e;
+  color: #ccc;
+}
+.home-text {
+  color: #3e3e3e;
+  font-size: 20px;
+  font-weight: 500;
+}
+.carousel-text {
+  font-size: 48px;
+  font-weight: 600;
+}
+/* package section */
+.card-font-size {
+  font-size: 36px;
+  font-weight: 700;
+}
+.fa-check-circle {
+  color: #848199;
+}
+/* Upcoming Events */
+.card-text {
+  text-align: center;
+}
+.child-position {
+  position: absolute;
+  right: 0px;
+}
+.toasts-text {
+  font-size: 20px;
+  color: #5392f9;
+}
+.offer-color {
+  color: #fc7651;
+  font-size: 20px;
+  font-weight: 700;
+}
+.card-round-new {
+  border-radius: 20px 20px 0 0;
+}
+.card-round {
+  border-radius: 20px;
+}
+/* copyright-text */
+.copyright-text {
+  color: white;
+}
+/* Reviews section */
+.cleanliness {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(146, 145, 145);
+}
+.review-text {
+  background-color: #5392f9;
+  color: white;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.from-68-review {
+  color: #5392f9;
+}
+/* asking section */
+.all-margin {
+  margin: 80px 0;
+}
+.bold-text {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+/* hot icon */
+.hot-icon {
+  height: 30px;
+  width: 50px;
+  background-color: #ff4e4e;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  display: grid;
+  align-items: center;
+  border-radius: 10px;
+}
+.hot-text {
+  text-align: center;
+}
+.hot-position {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+}
+/* hover section */
+.card-hover {
+  transition: ease-in-out 0.4s;
+}
+.card-hover:hover {
+  transform: translateY(-10%);
+}
+
+/* responsive  */
+/* mediaQuarry */
+@media (max-width: 576px) {
+  .people-img {
+    width: 100%;
+    order: 1;
+  }
+  .asking-area {
+    display: grid;
+    justify-items: center;
+  }
+  .dream-text {
+    font-size: 16px;
+  }
+  .card-hover-new {
+    margin-bottom: 50px;
+  }
+  .card-hover:hover {
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .asking-area {
+    display: grid;
+    justify-items: center;
+  }
+  .asking-text {
+    order: 1;
+    width: 100%;
+  }
+  .asking-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .frequently {
+    display: flex;
+    justify-content: center;
+  }
+  .review-section {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+  }
+  .cleanling {
+    display: grid;
+    width: 100%;
+  }
+  .facilities {
+    display: grid;
+    width: 100%;
+  }
+  .real-guest {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .people-img {
+    width: 100%;
+    order: 1;
+  }
+}
+@media (max-width: 1200px) {
+  .people-img {
+    width: 95%;
+    order: 1;
+  }
+  .asking-area {
+  }
+}
+/* -------****------- */
+/* -------end------- */
